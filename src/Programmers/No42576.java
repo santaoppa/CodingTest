@@ -2,8 +2,13 @@ package Programmers;
 
 import java.util.HashMap;
 
-class Solution {
-    public String solution(String[] participant, String[] completion) {
+class No42576 {
+    public static void main(String[] args) {
+        String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
+        String[] completion = {"josipa", "filipa", "marina", "nikola"};
+        System.out.println(solution(participant, completion));
+    }
+    public static String solution(String[] participant, String[] completion) {
         String answer = "";
         HashMap<String, Integer> hm = new HashMap<>();
 
@@ -18,3 +23,8 @@ class Solution {
         return answer;
     }
 }
+
+/**
+ * 완주하지 못한 선수
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42576
+ */
