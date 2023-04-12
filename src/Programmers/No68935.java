@@ -6,8 +6,6 @@ public class No68935 {
     }
 
     public static int solution(int n) {
-        int answer = 0;
-
         String result = "";
         while(n != 0) {
             result += n%3;
