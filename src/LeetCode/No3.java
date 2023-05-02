@@ -13,7 +13,7 @@ public class No3 {
         int start = 0;
 
         for(int i=0; i<s.length(); i++){
-            if(hm.get(s.charAt(i))!=null && hm.get(s.charAt(i)) >= start){
+            if(hm.get(s.charAt(i)) != null && hm.get(s.charAt(i)) >= start){
                 start = hm.get(s.charAt(i))+1;
             }
             hm.put(s.charAt(i), i);
